@@ -3,7 +3,7 @@ import assert from "node:assert";
 
 import { BusRouteStrategy } from "../main/busRouteStrategy.js";
 
-let busRouteStrategy = new BusRouteStrategy();
+const busRouteStrategy = new BusRouteStrategy();
 
 test("BusRouteStrategy::calculateTime from[km-10] to[km-5]", (t) => {
   assert.equal(busRouteStrategy.calculateTime(10, 5), 6);
