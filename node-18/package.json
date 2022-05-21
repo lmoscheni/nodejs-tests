@@ -1,0 +1,19 @@
+{
+  "name": "node-18",
+  "version": "1.0.0",
+  "description": "A test of node 18 new features",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "type": "module",
+  "author": "Leandro Moscheni",
+  "license": "ISC",
+  "volta": {
+    "node": "18.2.0",
+    "npm": "8.9.0"
+  }
+}
